@@ -17,6 +17,9 @@
 
 ## TL;DR
 
+> [!NOTE]
+> **Listed below is true, but missing some information. Regardless of being logged in with a MSN you WILL have a GDID. I didn't realize this at the time of posting but I looked into it. CDP has an anonymous device path that is used if no MSN has been connected.
+
 - **GDID is a real telemetry item.** It shows up in the U.S. federal criminal complaint (*United States v. Peter Stokes*, N.D. Ill., July 2026) as `Global Device Identifier g:6755467234350028`.
 - **It is a Microsoft Account "Device PUID".** A 64 bit Passport Unique ID assigned to a Windows installation when it registers with a Microsoft Account, written in the device graph as `g:<decimal>`.
 - **The claims are wrong.** It is **not** "128 bit" and **not** "generated from serial numbers." The court record itself says a *reinstall produces a new GDID*, which rules out it being derived from hardware serials like your GPU.
